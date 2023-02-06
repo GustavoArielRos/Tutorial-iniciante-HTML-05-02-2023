@@ -1,0 +1,332 @@
+
+<!-- ______________________________________________ PARTE 2____________________________________-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda aula html</title>
+</head>
+<body>
+
+<!-- _____________________________________________________TAGS LISTAS______________________________________________-->
+    
+    <h1>Listas</h1>
+    <!-- "ul" descrição que diz o que está dentro dessa tag será uma lista-->
+    <ul>
+
+    </ul>
+
+    <!-- 'li' é um item da lista, ordena da forma que ta escrita -->
+    <ul>
+        <li>
+            Batata frita
+        </li>
+        <li>
+            hamburguer
+        </li>
+        <li>
+            refrigerante
+        </li>
+    </ul>
+
+    <!-- 'ol' lista ordenada-->
+    <!-- a ordem fica númerica(1,2,3,...)-->
+    <ol>
+
+    </ol>
+    <ol>
+        <li>
+            verdura
+        </li>
+        <li>
+            frutas
+        </li>
+        <li>
+            suco
+        </li>
+
+    </ol>
+    
+    <!--'dl' lista de definições-->
+    <dl>
+
+    </dl>
+    <!-- 'dt' é o item-->
+    <dl>
+
+        <dt>
+            Batata frita
+        </dt>
+
+    </dl>
+    <!-- 'dd' definir o que o item siginfica-->
+    <dl>
+        <dd>
+
+        </dd>
+    </dl>
+    <!--'dd' e 'dt' tem que ser usada juntas-->
+    <!-- no site fica dessa forma no alinhamento, apesar de não precisar fazer esse espaçamento no html-->
+    <dl>
+        <dt>
+            Batata frita
+        </dt>
+            <dd>
+                Comida não saudável
+            </dd>
+        <dt>
+            Verdura
+        </dt>
+            <dd>
+                Comida saudável
+            </dd>
+    </dl>
+
+<!-- _________________________________________________________TAG TABELAS_______________________________________________-->
+    
+    <h1>Tabelas</h1>
+
+    <!--'table' tag que diz que tudo que estiver dentro , estará dentro de uma tabela-->
+    <!-- indica para o navegador que será criado uma tabela-->
+    <table>
+
+    </table>
+    <!-- 'tr' é a linha-->
+    <table>
+        <tr>
+
+        </tr>
+
+    </table>
+    <!-- 'td' é a célula-->
+    <table>
+        <td>
+
+        </td>
+    </table>
+    <!-- 'td' é o título da tabela-->
+    <table>
+        <th>
+
+        </th>
+    </table>
+    <!-- 'tr','td','th' , podem ser usados juntos-->
+    <!-- criando uma tabela 3x3-->
+    <table>
+
+        <!-- linha: 1-->
+        <tr>
+          <!-- coluna: 1--> <!-- usamos o 'th' ao invés de 'td' pq são os títulos das colunas-->
+          <th>
+            Nome
+
+          </th>
+          <!-- coluna: 2-->
+          <th>
+            Idade
+
+          </th>
+          <!-- coluna: 3-->
+          <th>
+            Profissão
+          </th>
+
+        </tr>
+        <!-- linha: 2-->
+        <tr>
+            <!-- coluna: 1-->
+          <td>
+            Maria
+
+          </td>
+          <!-- coluna: 2-->
+          <td>
+            25 anos
+
+          </td>
+          <!-- coluna: 3-->
+          <td>
+            médica
+          </td>
+          
+
+        </tr>
+        <!-- linha: 3-->
+        <tr>
+             <!-- coluna: 1-->
+          <td>
+            Carlos
+
+          </td>
+          <!-- coluna: 2-->
+          <td>
+            21 anos
+
+          </td>
+          <!-- coluna: 3-->
+          <td>
+            engenheiro
+          </td>
+
+        </tr>
+    </table>
+    
+    <!-- 'border' colocar a tabela com a divisória de linhas e colunas desenhadas com o traço-->
+    <!-- voce aumenta a "grossura" da borda-->
+    <table border="2">
+
+        <!-- linha: 1-->
+        <tr>
+          <!-- coluna: 1--> <!-- usamos o 'th' ao invés de 'td' pq são os títulos das colunas-->
+          <th>
+            Nome
+
+          </th>
+          <!-- coluna: 2-->
+          <th>
+            Idade
+
+          </th>
+          <!-- coluna: 3-->
+          <th>
+            Profissão
+          </th>
+
+        </tr>
+        <!-- linha: 2-->
+        <tr>
+            <!-- coluna: 1-->
+          <td>
+            Maria
+
+          </td>
+          <!-- coluna: 2-->
+          <td>
+            25 anos
+
+          </td>
+          <!-- coluna: 3-->
+          <td>
+            médica
+          </td>
+          
+
+        </tr>
+        <!-- linha: 3-->
+        <tr>
+             <!-- coluna: 1-->
+          <td>
+            Carlos
+
+          </td>
+          <!-- coluna: 2-->
+          <td>
+            21 anos
+
+          </td>
+          <!-- coluna: 3-->
+          <td>
+            engenheiro
+          </td>
+
+        </tr>
+    </table>
+
+<!-- _______________________________________________________TAGS FORMULÁRIOS______________________________________________-->
+
+    <h1>formulários</h1>
+
+    <!-- 'form' dizendo para o navegador que haverá um formulário-->
+    <form>
+
+    </form>
+    <!-- 'label' é a legenda para a interface do usuário-->
+    <form>
+        <label>
+            Nome:
+        </label>
+        <label>
+            Email:
+        </label>
+        <label>
+            Mensagem:
+        </label>
+
+    </form>
+    <!-- 'input' é onde vai receber a entrada de dados-->
+    <form>
+        <label>
+            Nome:
+        </label>
+        <input type="text" name="nome">
+
+        <label>
+            Email:
+        </label>
+        <input type="text" name="nome">
+
+        <label>
+            Mensagem:
+        </label>
+        
+
+    </form>
+    <!-- 'textarea' um input só que para texto-->
+    <form>
+        <label>
+            Nome:
+        </label>
+        <input type="text" name="nome">
+
+        <label>
+            Email:
+        </label>
+        <input type="text" name="nome">
+
+        <label>
+            Mensagem:
+        </label>
+        <textarea>
+
+        </textarea>
+        
+    </form>
+
+<!--_________________________________________________TAG BOTÃO_________________________________________-->
+
+    <h1>Botão</h1>
+
+    <!--'button' cria um botão-->
+    <button>
+
+    </button>
+    <!-- os tipos de botão são:
+            - submit
+            - reset
+            - button
+    -->
+    <!-- o butto não tem ação pre-determinada-->
+    <!-- eu posso dizer que ele faz parte desse formulário 'f_cadastro' supostamente criado-->
+    <button type="button" form="f_cadastro">Texto que está dentro do botão</button>
+    <!-- para voce determinar as ações do "button" é necessário usar o java para determinar suas ações-->
+    <!-- esse 'onclick' já é uma função do java script-->
+    <button type="button" form="f_cadastro" onclick="alert('botão clickado');">Texto que está dentro do botão</button>
+    
+    <!-- o 'submit' faz o envio dos dados do formulário-->
+    <button type="submit" form="f_cadastro">Texto que está dentro do botão</button>
+    
+    <!-- o 'reset' limpa os campos do formulário-->
+    <button type="reset" form="f_cadastro">Texto que está dentro do botão</button>
+
+    <!--para mudar o estilo do botão temos que usar css-->
+    <!--é necessário colocar uma classe para ele(para ser identificado no css)-->
+    <button class="bnt1" type="button" form="f_cadastro" onclick="alert('botão clickado');">Texto que está dentro do botão</button>
+
+    
+
+
+</body>
+</html>
